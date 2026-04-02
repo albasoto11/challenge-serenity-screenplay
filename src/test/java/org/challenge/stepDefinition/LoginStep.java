@@ -9,21 +9,9 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 
 public class LoginStep {
     @Before
-    public void setTheStage(){
+    public void setTheStage() {
 
         OnStage.setTheStage(new OnlineCast());
-    }
-    @Given("que soy usuario {string} abre el sitio web")
-    public void que_soy_usuario_cliente_abre_el_sitio_web(String actor) {
-
-    }
-    @When("cuando ingreso al navegador")
-    public void cuando_ingreso_al_navegador() {
-
-    }
-    @Then("debe visualizar el {string}")
-    public void debe_visualizar_el(String string) {
-
     }
     @Given("que el usuario abre la página de inicio de sesión")
     public void que_el_usuario_abre_la_página_de_inicio_de_sesión() {
@@ -49,4 +37,20 @@ public class LoginStep {
     public void debería_ver_el_título(String string) {
 
     }
+    @When("selecciona maximo {int} productos al carrito")
+    public void selecciona_maximo_productos_al_carrito(Integer int1) {
+
+    }
+    @When("hace clic en el botón {string}")
+    public void hace_clic_en_el_botón(String string) {
+
+    }
+    @Then("se debe visualizar el carrito con {int} items")
+    public void se_debe_visualizar_el_carrito_con_items(Integer int1) {
+
+    }
+
+
+
+
 }
