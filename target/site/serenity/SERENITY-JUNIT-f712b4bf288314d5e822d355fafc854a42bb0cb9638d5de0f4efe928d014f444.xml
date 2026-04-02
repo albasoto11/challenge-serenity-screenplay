@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Ingresar a la pantalla login" skipped="2" tests="2" time="0.4" timestamp="2026-04-01 08:11:21"><testcase name="Login exitoso con credenciales válidas"><compromised message="Environment 'environments.webdriver.base.url' property undefined for environment '[]'" type="net.serenitybdd.model.environment.UndefinedEnvironmentVariableException">Environment 'environments.webdriver.base.url' property undefined for environment '[]'</compromised><system-err>Environment 'environments.webdriver.base.url' property undefined for environment '[]'&#13;
+net.serenitybdd.model.environment.EnvironmentSpecificConfiguration.lambda$getProperty$11(EnvironmentSpecificConfiguration.java:196)&#13;
+net.serenitybdd.model.environment.EnvironmentSpecificConfiguration.getProperty(EnvironmentSpecificConfiguration.java:192)&#13;
+org.challenge.hook.OpenWeb.performAs(OpenWeb.java:29)&#13;
+org.challenge.stepDefinition.hook.hook.que_el_usuario_abre_la_página_de_inicio_de_sesión(hook.java:27)&#13;
+✽.que el usuario "cliente" abre la página de inicio de sesión(classpath:features/login.feature:16)&#13;
+</system-err></testcase></testsuite>
